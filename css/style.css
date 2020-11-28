@@ -1,0 +1,143 @@
+* {
+margin: 0;
+padding: 0;
+}
+body {
+font: 71%/1.5 Verdana, Sans-Serif;
+background: #eee;
+}
+#main-container {
+margin: 100px auto;
+width: 688px;
+-moz-transform: scale(1.7);
+}
+#write {
+margin: 0 0 5px;
+padding: 5px;
+width: 671px;
+height: 66px;
+resize: none;
+font: 3em/1.5 Verdana, Sans-Serif;
+background: #fff;
+border: 1px solid #f9f9f9;
+border-radius: 15px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+}
+#keyboard {
+margin: 0px;
+margin-left: 10px;
+padding: 0;
+list-style: none;
+}
+	#keyboard li {
+	float: left;
+	margin: 0 5px 5px 0;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #f9f9f9;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+		.capslock, .tab, .left-shift {
+		clear: left;
+		}
+			#keyboard .tab, #keyboard .delete {
+			width: 70px;
+			}
+			#keyboard .capslock {
+			width: 80px;
+			}
+			#keyboard .return {
+			width: 77px;
+			}
+			#keyboard .left-shift {
+			width: 95px;
+			}
+			#keyboard .right-shift {
+			width: 109px;
+			}
+		.lastitem {
+		margin-right: 0;
+		}
+		.uppercase {
+		text-transform: uppercase;
+		}
+		#keyboard .space {
+		clear: left;
+		width: 681px;
+		}
+		.on {
+		display: none;
+		}
+		#keyboard li:hover {
+		position: relative;
+		top: 1px;
+		left: 1px;
+		border-color: #e5e5e5;
+		cursor: pointer;
+		}
+
+
+
+		#keyboard2 {
+			margin: 0px;
+			margin-left: 10px;
+			padding: 0;
+			list-style: none;
+			}
+				#keyboard2 li {
+				float: left;
+				margin: 0 5px 5px 0;
+				width: 40px;
+				height: 40px;
+				line-height: 40px;
+				text-align: center;
+				background: #fff;
+				border: 1px solid #f9f9f9;
+				-moz-border-radius: 5px;
+				-webkit-border-radius: 5px;
+				}
+					.capslock, .tab, .left-shift {
+					clear: left;
+					}
+						#keyboard2 .tab, #keyboard2 .delete {
+						width: 70px;
+						}
+						#keyboard2 .capslock {
+						width: 80px;
+						}
+						#keyboard2 .return {
+						width: 77px;
+						}
+						#keyboard2 .left-shift {
+						width: 95px;
+						}
+						#keyboard2 .right-shift {
+						width: 109px;
+						}
+					.lastitem {
+					margin-right: 0;
+					}
+					.uppercase {
+					text-transform: uppercase;
+					}
+					#keyboard2 .space {
+					clear: left;
+					width: 659px;
+					}
+					.on {
+					display: none;
+					}
+					#keyboard2 li:hover {
+					position: relative;
+					top: 1px;
+					left: 1px;
+					border-color: #e5e5e5;
+					cursor: pointer;
+					}
+
+.text-success{color:#28a745!important}
