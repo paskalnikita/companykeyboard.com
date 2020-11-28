@@ -50,9 +50,8 @@ $(function(){
 		
 		// Add the character qwerty logos
 		// $write.html($write.html() + character);
-
-		console.log();
-		$write.html($write.html() +$this[0].id);
+		document.getElementById("write").value = $this[0].id;
+		console.log($this[0].id);
 
 
 	});
